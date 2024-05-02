@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacts</title>
+  <title>Minigames page</title>
   <link rel="stylesheet" href="./css/main.css">
 </head>
-
-<body>
-
+<body >
+    
   <nav class="nav">
     <div class="container">
       <div class="nav__row">
@@ -20,41 +18,51 @@
         </button>
         <ul class="nav__list">
           <li class="nav__list-item">
-            <a href="./index.html" class="nav__list-link ">Projects</a>
+            <a href="./index.html" class="nav__list-link nav__list-link--active">Projects</a>
+            </li>
+          <li class="nav__list-item">
+            <a href="./skills.html" class="nav__list-link">Skills</a>
           </li>
           <li class="nav__list-item">
-            <a href="./skills.html" class="nav__list-link ">Skills</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="./contacts.html" class="nav__list-link nav__list-link--active">Contacts</a>
+            <a href="./contacts.html" class="nav__list-link">Contacts</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
+  
   <main class="section">
     <div class="container">
-      <div class="contacts">
-        <h1 class="title-1">Contacts</h1>
-
-        <h2 class="title-2">Location</h2>
-        <p class="contacts__desc">Saint Petersburg, Russia</p>
-        <h2 class="title-2">Telegram</h2>
-        <a href="https://t.me/StratosGOD" class="contacts__link">
-          <p class="contacts__desc"> @StratosGOD</p>
+      
+      <div class="project-details">
+      <h1 class="title-1">The memory card minigame</h1>
+      <img src="./images/projects/memory_card.jpg" alt="" class="project-details__cover">
+        <div class="project-details__desc">
+          <p>Skills: Java Script, Html, CSS</p>
+        </div>
+        <a href="./otherworks/memory_card_game/index.html" class="btn-outline">
+          Go to the project
         </a>
-        
-        <h2 class="title-2">WhatsApp</h2>
-        <a href="tel:+79523801738" class="contacts__link">
-        <p class="contacts__desc">+7 (952) 380-17-38</p>
+      </div>
+      <div class="project-details">
+      <h1 class="title-1">The snake minigame</h1>
+      <img src="./images/projects/snake.jpg" alt="" class="project-details__cover">
+        <div class="project-details__desc">
+          <p>Skills: Java Script, Html, CSS</p>
+        </div>
+        <a href="./otherworks/snake/index.html" class="btn-outline">
+          Go to the project
         </a>
-
-        <h2 class="title-2">Email</h2>
-        <a href="mailto:Ahilepseek@gmail.com" class="contacts__link">
-        <p class="contacts__desc">Ahilepseek@gmail.com</p>
+      </div>
+      <div class="project-details">
+      <h1 class="title-1">The arkanoid minigame</h1>
+      <img src="./images/projects/arkanoid.jpg" alt="" class="project-details__cover">
+        <div class="project-details__desc">
+          <p>Skills: Java Script, Html, CSS</p>
+        </div>
+        <a href="./otherworks/arkanoid/index.html" class="btn-outline">
+          Go to the project
         </a>
-
       </div>
     </div>
   </main>
@@ -67,7 +75,7 @@
           </a>
         </li>
         <li class="social-item">
-          <a href="#!">
+          <a href="https://github.com/TheStratos/main">
             <img src="./images/icons/github-footer.svg" alt="" class="social-img">
           </a>
         </li>
@@ -82,5 +90,4 @@
   </footer>
   <script src="./js/main.js"></script>
 </body>
-
 </html>
